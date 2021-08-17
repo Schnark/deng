@@ -1,0 +1,15 @@
+{
+	"version": "1.0",
+	"name": "Deng",
+	"description": "English-German dictionary",
+	"size": 7816317,
+	"package_path": "http://localhost:8080/deng.zip",
+	"icons": {
+		"128": "/res/icon-128.png",
+		"512": "/res/icon-512.png"
+	},
+	"developer": {
+		"name": "Michael Müller",
+		"url": "https://github.com/Schnark"
+	}
+}

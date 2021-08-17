@@ -1,0 +1,16 @@
+{
+	"@comment": "Note that the code to transform these data into a webpage is in https://github.com/Schnark/schnark.github.io",
+	"title": {
+		"en": "Deng – App for Firefox OS",
+		"de": "Deng – App für Firefox OS"
+	},
+	"serviceworker": false,
+	"icon": "res/icon-128.png",
+	"screenshots": [
+		"1.png"
+	],
+	"desc": {
+		"en": ["This app is a German-English dictionary."],
+		"de": ["Diese App ist ein Deutsch-Englisch-Wörterbuch."]
+	}
+}

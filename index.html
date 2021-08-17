@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8">
+<title>Deng</title>
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+<link rel="manifest" href="icons/site.webmanifest">
+<link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="icons/favicon.ico">
+<meta name="apple-mobile-web-app-title" content="Deng">
+<meta name="application-name" content="Deng">
+<meta name="msapplication-TileColor" content="#603cba">
+<meta name="msapplication-config" content="icons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="res/deng.css">
+<script src="res/deng.js" defer></script>
+</head><body>
+<article id="main">
+<form id="search"><p><input type="search" id="input"><button id="submit" title="Search">▶</button><button id="config" type="button" title="Configure">…</button></p></form>
+<div id="result"></div>
+</article>
+<article id="settings" hidden>
+<h1>Settings</h1>
+<p><label><input type="checkbox" id="options-start"> Search at start of entry only</label></p>
+<p><label><input type="checkbox" id="options-end"> Search for full words only</label></p>
+<p>You can use <code>*</code> to truncate, the automatic search will always truncate at the end.</p>
+<p><label><input type="checkbox" id="options-ignoreCase"> Case insensitive search</label></p>
+<p><label>Maximal number of results: <input type="number" id="options-max" min="1" step="1"></label></p>
+<p><label>Start search automatically after (milliseconds, 0 to disable): <input type="number" id="options-timeout" min="0" step="1"></label></p>
+<p><label>Minimal number of letters to start automatic seach: <input type="number" id="options-min" min="1" step="1"></label></p>
+<button id="options-back">Back</button>
+</article>
+</body></html>

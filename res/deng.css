@@ -1,0 +1,75 @@
+html {
+	font-family: sans-serif;
+}
+
+#input {
+	width: calc(100% - 3em);
+	font: inherit;
+}
+
+#submit,
+#config {
+	width: 2em;
+}
+
+button {
+	cursor: pointer;
+	font: inherit;
+	background: transparent;
+	border: solid thin #888;
+	border-radius: 5px;
+}
+
+table {
+	width: 100%;
+	border-spacing: 0px;
+}
+
+td {
+	width: 50%;
+	vertical-align: top;
+	padding: 0.1em;
+	border-bottom: solid thin #888;
+}
+
+.main-line::before {
+	color: #888;
+}
+
+.main-line.open::before,
+.main-line.closed::before,
+.only-line::before,
+.sub-line::before {
+	width: 1em;
+	display: inline-block;
+}
+
+.main-line.open::before {
+	content: "▼";
+}
+
+.main-line.closed::before {
+	content: "▶";
+}
+
+.only-line::before,
+.sub-line::before {
+	content: "\A0";
+}
+
+.sub-line.closed {
+	display: none;
+}
+
+.sub-line td {
+	padding-left: 1em;
+}
+
+.main-line {
+	cursor: pointer;
+}
+
+mark {
+	background-color: transparent;
+	color: #00f;
+}

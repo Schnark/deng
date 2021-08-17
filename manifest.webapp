@@ -1,0 +1,14 @@
+{
+	"version": "1.0",
+	"name": "Deng",
+	"description": "English-German dictionary",
+	"launch_path": "/index.html",
+	"icons": {
+		"128": "/res/icon-128.png",
+		"512": "/res/icon-512.png"
+	},
+	"developer": {
+		"name": "Michael Müller",
+		"url": "https://github.com/Schnark"
+	}
+}
