@@ -1,8 +1,9 @@
 {
-	"version": "1.0",
+	"version": "1.1",
 	"name": "Deng",
 	"description": "English-German dictionary",
-	"size": 7816317,
+	"default_locale": "en",
+	"size": 7816336,
 	"package_path": "https://schnark.github.io/deng/deng.zip",
 	"icons": {
 		"128": "/res/icon-128.png",

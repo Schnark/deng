@@ -99,7 +99,7 @@ function formatLine (line, highlight) {
 
 function getWeight (entry, search) {
 	var weight, match, parts;
-	entry = entry.replace(/ \([^)]*\)| \[[^\]]*\]| \{[^}]*\}| <[^>]*>/g, '');
+	entry = entry.replace(/\([^)]*\)|\[[^\]]*\]|\{[^}]*\}|<[^>]*>/g, '').replace(/ {2,}/g, ' ');
 	match = search.exec(entry);
 	if (!match) {
 		return 0;
